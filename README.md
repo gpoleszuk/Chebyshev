@@ -1,7 +1,10 @@
 # Chebyshev
 
-Pafnuty* Lvovich Chebyshev
+Pafnuty[^firstname-ref] Lvovich Chebyshev
 
+<details>
+  <summary> Show code </summary>
+    
 ```python
 import numpy as np
 
@@ -38,6 +41,8 @@ coefs = calculate_chebyshev_coefficients(6)
 for i, c in enumerate(coefs):
     print(f"C[{i}] = {c:.16f}")
 ```
+</details>
+
 <details>
   <summary>  The first 100 Chebyshev coefficients</summary>
     
@@ -146,5 +151,4 @@ C[100] = 3.5905354350794038e-15
 ```
 </details>
 
-
-* Related to the his first name, it comes from the Greek Paphnutius (Παφνούτιος), which in turn takes its origin in the Coptic Paphnuty (Ⲡⲁⲫⲛⲟⲩϯ), meaning "that who belongs to God" or simply "the man of God". (According to https://en.wikipedia.org/wiki/Pafnuty_Chebyshev)
+[^firstname-ref]: Related to the his first name, it comes from the Greek Paphnutius (Παφνούτιος), which in turn takes its origin in the Coptic Paphnuty (Ⲡⲁⲫⲛⲟⲩϯ), meaning "that who belongs to God" or simply "the man of God". (According to https://en.wikipedia.org/wiki/Pafnuty_Chebyshev)
